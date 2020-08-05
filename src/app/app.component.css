@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+nav {
+    width: 15%;
+    background-color: #333333;
+    padding: .5em;
+}
+
+.title {
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: .5em;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 2.5em;
+    outline: none;
+}
+
+.title:hover {
+    color: #999;
+}
+
+nav ul li {
+    color: white;
+    padding: .5em 1.5em;
+    transition: .2s ease-in all;
+    outline: none;
+}
+
+nav ul li:hover {
+    background-color: #555555;
+    cursor: pointer;
+}

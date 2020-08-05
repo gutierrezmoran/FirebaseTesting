@@ -1,0 +1,16 @@
+<div>
+    <router-outlet></router-outlet>
+    <div class="table">
+        <div class="row" *ngFor="let person of people">
+            <p class="column bold-style">{{ person.dni }}</p>
+            <p class="column">{{ person.firstname }}</p>
+            <p class="column">{{ person.lastname }}</p>
+        </div>
+    </div>
+</div>
+<div class="doc-container">
+    <h1 class="doc-title">ValueChanges</h1>
+    <p>
+        ValueChanges nos permite recuperar los valores de una colección pero NO el id del Document.
+    </p>
+</div>

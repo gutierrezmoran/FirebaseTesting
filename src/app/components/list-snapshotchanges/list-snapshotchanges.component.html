@@ -1,0 +1,19 @@
+<div>
+    <router-outlet></router-outlet>
+    <div class="table">
+        <div class="row" *ngFor="let person of people">
+            <p class="column bold-style">{{ person.dni }}</p>
+            <p class="column">{{ person.firstname }}</p>
+            <p class="column">{{ person.lastname }}</p>
+            <div class="trash-container">
+                <i class="fas fa-trash" (click)="deletePerson(person.id)"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="doc-container">
+    <h1 class="doc-title">SnapshotChanges</h1>
+    <p>
+        SnapshotChanges nos permite recuperar los valores de una colección INCLUIDO el id del Document.
+    </p>
+</div>

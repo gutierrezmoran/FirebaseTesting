@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-testing-b5602": {
+      "hosting": {
+        "FirebaseTesting": [
+          "fir-testing-b5602"
+        ]
+      }
+    }
+  }
+}

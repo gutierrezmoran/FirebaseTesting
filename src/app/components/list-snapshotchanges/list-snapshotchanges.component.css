@@ -1,0 +1,71 @@
+:host {
+    display: flex;
+    flex: 1;
+}
+
+.table {
+    padding: 1em;
+    border-radius: .2em;
+    user-select: none;
+    flex: 1;
+}
+
+.row {
+    padding: 1.5em;
+    margin: 1em 0;
+    background-color: #deded5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .25fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.column {
+    margin: 0;
+    text-align: center;
+}
+
+.fa-trash {
+    font-size: 1.3em;
+    transition: .1s linear all;
+    color: #aaaaaa;
+}
+
+.fa-trash:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.trash-container {
+    justify-self: right;
+}
+
+.bold-style {
+    font-weight: bold;
+}
+
+.fa-magic {
+    padding: .3em;
+    margin: .05em;
+    font-size: 1em;
+    background-color: rgb(132, 210, 255);
+    color: white;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+.mat-form-field {
+    margin-right: 8px;
+}
+
+.doc-container {
+    padding: 2em;
+    margin: 1em;
+    background-color: #f1f1f1;
+    flex: 1;
+}
+
+.doc-title {
+    font-size: 1.8em;
+    font-weight: bold;
+}

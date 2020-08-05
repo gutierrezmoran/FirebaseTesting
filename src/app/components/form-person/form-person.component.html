@@ -1,0 +1,15 @@
+<form novalidate [formGroup]="form" (ngSubmit)="addPerson()">
+    <mat-form-field appearance="fill">
+        <mat-label>DNI</mat-label>
+        <input matInput formControlName="dni">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Firstname</mat-label>
+        <input matInput formControlName="firstname">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Lastname</mat-label>
+        <input matInput formControlName="lastname">
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit" class="button">Add Person</button>
+</form>
